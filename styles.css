@@ -1,0 +1,52 @@
+/* @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"); */
+/* @import "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"; */
+
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar {
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+.bg-header {
+    padding-top: 50px;
+    margin-bottom: 5px;
+    height: 300px;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+#section1 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+#section2 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #673Ab7;
+}
+
+#section3 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #FF9800;
+}
+
+
+
+
